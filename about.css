@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: auto;
+    margin: 0 auto;
+    background-color: #f3f9f3;
+}
+
+p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.heading{
+    background-image: url(images/about-header.png);
+    height: 700px;
+    position: relative;
+    align-items: left;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+header{
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+}
+
+nav{
+    list-style: none;
+    display: flex;
+    width: 25vw;
+    min-width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .3s ease;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 2rem;
+    transition: all .3s ease;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: mreaves;
+    font-size: 19px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    color: #fff;
+    transition: all .3s ease;
+    padding: 0px 15px;
+}
+
+nav a:hover{
+    color: #d1e0d1;
+    transition: all .3s ease;
+    text-shadow: 0px 0px 5px #d1e0d1;
+}
+
+.logo{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 9em;
+    line-height: 1.2;
+    margin: 150px 250px 50px 250px;
+    color: #fff;
+}
+
+h3{
+    font-family: mreavesbold;
+    font-size: 28pt;
+    place-content: center;
+    text-align: center;
+    margin: 20px 160px 20px 160px;
+}
+
+.description1{
+    text-align: center;
+    color: #283f28;
+    height: 540px;
+    background-color: #d1e0d1;
+}
+
+.description1 h3{
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 40px;
+    padding-top: 250px;
+}
+
+.description1 p{
+    text-align: center;
+    float: center;
+    font-family: mreaves;
+    font-size: 18pt;
+    line-height: 1.5;
+    margin: 0px 250px 0px 250px;
+    padding-bottom: 50px;
+}
+
+.description2{
+    text-align: center;
+    float: center;
+    justify-content: center;
+    margin-top: -25px;
+    color: #f3f9f3;
+    background-color: #283f28;
+    height: 460px;
+}
+
+.description2 h3{
+    padding-top: 105px;
+    margin-bottom: 40px;
+}
+
+.description2 p{
+    text-align: center;
+    float: center;
+    font-family: mreaves;
+    font-size: 18pt;
+    line-height: 1.5;
+    margin: 25px 250px 25px 250px;  
+    padding-bottom: 
+}
+
+.contact{
+    position: relative;
+    object-position: center;
+    background-color: #f3f9f3;
+    padding: 80px 160px 10px 160px;
+    margin-bottom: 210px;
+    float: center;
+    justify-content: center;
+    align-content: center;
+    color: #283f28;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer{
+    margin-top: -100px;
+    background-color: #d1e0d1;
+    position: relative;
+    height: 170px;
+    clear: both;
+    padding: 25px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+footer h4{
+    text-align: center;
+    font-family: mreavesbold;
+    font-size: 18px;
+    font-weight: 600;
+    color: #283f28;
+}
+
+footer p{
+    text-align: center;
+    font-family: mreaves;
+    font-size: 15px;
+    color: #283f28;
+    padding: 20px 20px 0px 20px;
+}
+
+footer ul{
+    margin: 10px;
+    float: center;
+    text-align: center;
+}
+
+footer a{
+    display: inline-block;
+    margin: 10px;
+}
+
+footer a:hover{
+    color: #d1e0d1;
+    transition: all .3s ease;
+}
+
+@font-face{
+    font-family: 'mreaves';
+    src: url(fonts/MrEavesXLSanOT-Book.otf);
+}
+
+@font-face{
+    font-family: 'mreavesbold';
+    src: url(fonts/MrEavesXLSanOT-Heavy.otf);
+}
+
+

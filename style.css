@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: auto;
+    line-height: 1.5;
+    margin: 0 auto;
+    background-color: #283f28;
+}
+
+.heading{
+    height: 700px;
+    position: relative;
+    align-items: left;
+    background-size: cover;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-sizing: border-box;
+}
+
+header{
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+}
+
+nav{
+    list-style: none;
+    display: flex;
+    width: 25vw;
+    min-width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .3s ease;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 2rem;
+    transition: all .3s ease;
+}
+
+nav a{
+    padding: 0px 15px;
+    text-decoration: none;
+    font-family: mreaves;
+    font-size: 19px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+nav a:hover{
+    color: #d1e0d1;
+    transition: all .3s ease;
+    text-shadow: 0px 0px 5px #d1e0d1;
+}
+
+.logo{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.back-video{
+    position: absolute;
+    width: 100%;
+    bottom: 200px;
+    height: auto;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+@media (min-aspect-ratio: 16/9){
+.back-video{
+        width: 100%;
+        height: auto;
+}}
+
+@media (max-aspect-ratio: 16/9){
+.back-video{
+        width: auto;
+        height: 100%;
+}}
+
+.title{
+    margin-top: 110px;
+}
+
+p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 9em;
+    line-height: 1.4;
+    margin: 0px 250px;
+    margin-top: -50px;
+    color: #fff;
+}
+
+.banner{
+    display: contents;
+    align-content: center;
+    justify-content: center;
+}
+
+.banner p{
+    font-family: mreaves;
+    font-size: 15pt;
+    color: #fff;
+    text-align: left;
+    margin: 30px 160px 0px 250px;
+    letter-spacing: 5px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40pt;
+    margin: 0px 160px 30px 250px;
+    color: #fff;
+}
+
+h3{
+    font-family: mreavesbold;
+    font-size: 28pt;
+    place-content: center;
+    float: center;
+    text-align: center;
+    margin: 40px 160px 20px 160px;
+    color: #283f28;
+}
+
+.impact{
+    padding: 200px 20px 90px 20px;
+    text-align: center;
+    float: center;
+    font-family: mreaves;
+    font-weight: 100;
+    background-color: #f3f9f3;
+}
+
+.impact h3{
+    margin-top: -10px;
+}
+
+.impact p{
+    font-size: 18pt;
+    margin: 40px 250px 60px 250px;
+}
+
+.impact a.btn{
+    padding: 13px 30px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 15pt;
+    background-color: #283f28;
+    color: #f3f9f3;
+    transition: all .3s ease;
+}
+
+.impact a.btn:hover {
+    color: #283f28;
+    background-color: #d1e0d1;
+}
+
+.box{
+    width: 100%;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+    background-image: url(images/habitat.png);
+    background-size: cover;
+}
+
+.join{
+    background-color: #283f28;
+    margin-top: -3px;
+    padding: 50px 160px 100px 160px;
+    text-align: center;
+    float: center;
+    font-family: mreaves;
+}
+
+.join img{
+    width: 70px;
+    margin-top: 50px;
+}
+
+.join h3{
+    color: #f3f9f3;
+    margin: 20px auto;
+}
+
+.join p{
+    color: #f3f9f3;
+    margin: 20px auto;
+    font-size: 18pt;
+}
+
+.connect{
+    background-color: #283f28;
+    position: relative;
+    padding: 50px 160px 10px 160px;
+    margin-bottom: 200px;
+    text-align: center;
+    align-items: center;
+    object-position: center;
+    float: center;
+    font-family: mreaves;    
+}
+
+.content-wrapper{
+    width: 100%;
+    float: center;
+    text-align: center;
+    background-color: #283f28;
+}
+   
+.content-wrapper img{
+    justify-content: center;
+    margin-top: -60px;
+    margin-bottom: 160px;
+    margin-left: 30px;
+    margin-right: 30px;
+    min-width: 50px;
+    width: 1100px;
+    text-align: center;
+    float: center;
+    align-items: flex-start;
+}
+
+.content-wrapper div{
+    margin-top: -245px;
+    border-radius: 8px;
+    font-size: 15pt;
+    text-decoration: none;
+    margin-right: 840px;
+    margin-bottom: 100px;
+}
+
+.button a.btn{
+    padding: 13px 30px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #283f28;
+    background-color: #f3f9f3;
+    transition: all .3s ease;
+}
+
+.button a.btn:hover {
+    color: #f3f9f3;
+    background-color: #283f28;
+}
+
+footer{
+    margin-top: -100px;
+    background-color: #d1e0d1;
+    position: relative;
+    height: 170px;
+    clear: both;
+    padding: 25px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+footer h4{
+    text-align: center;
+    font-family: mreavesbold;
+    font-size: 18px;
+    font-weight: 600;
+    color: #283f28;
+}
+
+footer p{
+    text-align: center;
+    font-family: mreaves;
+    font-size: 15px;
+    color: #283f28;
+}
+
+footer ul{
+    margin: 10px;
+    float: center;
+    text-align: center;
+}
+
+footer a{
+    display: inline-block;
+    margin: 10px;
+}
+
+footer a:hover{
+    color: #d1e0d1;
+    transition: all .3s ease;
+}
+
+@font-face{
+    font-family: 'mreaves';
+    src: url(fonts/MrEavesXLSanOT-Book.otf);
+}
+
+@font-face{
+    font-family: 'mreavesbold';
+    src: url(fonts/MrEavesXLSanOT-Heavy.otf);
+}
+
+

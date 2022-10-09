@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: auto;
+    margin: 0 auto;
+    background-color: #d1e0d1;
+}
+
+.heading{
+    background-image: url(images/ocelot_our-work_opacity.png);
+    height: 700px;
+    position: relative;
+    align-items: left;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+header{
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    background-color: transparent;
+}
+
+nav{
+    list-style: none;
+    display: flex;
+    width: 25vw;
+    min-width: 400px;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .3s ease;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 2rem;
+    transition: all .3s ease;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: mreaves;
+    font-size: 19px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    color: #fff;
+    transition: all .3s ease;
+    padding: 0px 15px;
+}
+
+nav a:hover{
+    color: #d1e0d1;
+    transition: all .3s ease;
+    text-shadow: 0px 0px 5px #d1e0d1;
+}
+
+.logo{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.title{
+    margin-top: 100px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 9em;
+    line-height: 1;
+    margin: 0px 250px;
+    color: #fff;
+}
+
+.banner p{
+    font-family: mreaves;
+    font-size: 15pt;
+    font-weight: 100;
+    color: #f3f9f3;
+    text-align: left;
+    margin: 80px 160px 20px 250px;
+    letter-spacing: 5px;
+}
+
+.description{
+    position: relative;
+    text-align: center;
+    line-height: 1.5;
+    float: center;
+    font-family: mreaves;
+    color: #283f28;
+    margin: 120px 250px 120px 250px;
+}
+
+.description p{
+    font-size: 18pt;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#container1{
+    background-color: #283f28;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+row1{
+    width: 100%;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+row1 col-1{}
+
+row1 col-2{
+    width: 30%;
+    color: #f3f9f3;
+    height: 100px;
+    font-size: 18pt;
+    font-family: mreaves;
+    line-height: 1.7;
+}
+
+#container2{
+    background-color: #f3f9f3;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+row2{
+    width: 100%;
+    margin-top: -250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+row2 col-1{
+    width: 30%;
+    color: #283f28;
+    height: 100px;
+    margin-top: 60px;
+    font-size: 18pt;
+    line-height: 1.7;
+    font-family: mreavesbold;
+}
+
+col-1 p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+row2 col-2{}
+
+row2 a.btn{
+    padding: 13px 30px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 15pt;
+    background-color: #283f28;
+    color: #f3f9f3;
+    transition: all .3s ease;
+}
+
+row2 a.btn:hover{
+    color: #283f28;
+    background-color: #d1e0d1;
+}
+
+footer{
+    margin-top: -100px;
+    background-color: #d1e0d1;
+    position: relative;
+    height: 170px;
+    clear: both;
+    padding: 25px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+footer h4{
+    text-align: center;
+    font-family: mreavesbold;
+    font-size: 18px;
+    font-weight: 600;
+    color: #283f28;
+}
+
+footer p{
+    text-align: center;
+    font-family: mreaves;
+    font-size: 15px;
+    color: #283f28;
+    padding: 20px 20px 0px 20px;
+}
+
+footer ul{
+    margin: 10px;
+    float: center;
+    text-align: center;
+}
+
+footer a{
+    display: inline-block;
+    margin: 10px;
+}
+
+footer a:hover{
+    color: #d1e0d1;
+    transition: all .3s ease;
+}
+
+@font-face{
+    font-family: 'mreaves';
+    src: url(fonts/MrEavesXLSanOT-Book.otf);
+}
+
+@font-face{
+    font-family: 'mreavesbold';
+    src: url(fonts/MrEavesXLSanOT-Heavy.otf);
+}
+
+
